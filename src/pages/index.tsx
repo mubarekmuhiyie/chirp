@@ -22,7 +22,7 @@ const CreatePostWizard = () => {
       setInput("")
       void ctx.posts.getAll.invalidate()
     }
-  })
+  })  
 
   if (!user) return null;
 
