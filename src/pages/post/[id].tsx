@@ -3,7 +3,6 @@ import { api } from "~/utils/api";
 import { type NextPage } from "next";
 import { type GetStaticProps } from "next";
 import { PageLayout } from "~/components/layout";
-import { LoadingPage } from "~/components/loading";
 import { PostView } from "~/components/postview";
 import { generateSSGhelper } from "~/server/helpers/ssgHelper";
 
